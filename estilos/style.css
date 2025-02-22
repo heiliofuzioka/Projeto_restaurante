@@ -106,6 +106,7 @@ section.sabores > p {
 
 .itens > div {
     width: 250px;
+    
     margin: 50px 5px;
 }
 
@@ -116,16 +117,15 @@ section.sabores > p {
 
 section.cardapio {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: greenyellow;
 }
 
 .topo {
-    width: 70%;
+    width: 95%;
     padding: 30px;
     display: flex;
     flex-flow: row wrap;
-    background-color: blue;
     justify-content: space-around;
     justify-self: center;
     align-items: center;
@@ -146,4 +146,12 @@ section.cardapio {
 .conj-titulo h1 {
     color: white;
     font-size: 2em;
+}
+
+section.cardapio > .topo > .button-car > input {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
 }
