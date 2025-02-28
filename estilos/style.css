@@ -200,3 +200,32 @@ section.cardapio>.sub-quadro {
     border: none;
     align-self: flex-start;
 }
+
+section.bio {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+section.bio > .historia > h1 {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+section.bio > .historia > p {
+    margin-bottom: 20px;
+}
+
+section.bio > .caracteristicas {
+    display: flex;
+    flex-flow: row;
+}
+
+section.bio > .caracteristicas h2 {
+    color: red;
+    margin: 20px 0px;
+}
+
+section.bio > .caracteristicas p {
+    padding: 0px 20px;
+}
